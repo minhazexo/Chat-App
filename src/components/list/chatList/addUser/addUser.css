@@ -1,0 +1,106 @@
+/* Main container for AddUser component */
+.addUser {
+  position: absolute; /* Position it relative to its closest positioned ancestor */
+  top: 50%; /* Position it in the vertical center */
+  left: 50%; /* Position it in the horizontal center */
+  transform: translate(-50%, -50%); /* Adjust to perfectly center */
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  width: 100%;
+  min-width: 250px;
+  transition: all 0.3s ease;
+  cursor: move;
+  z-index: 100; /* Ensure it is on top of other elements */
+}
+
+/* Ensure child elements are not affected by cursor */
+.addUser * {
+  cursor: inherit;
+}
+
+/* Styles for the form */
+.addUser form {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Style for the text input field */
+.addUser input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Style for the search button */
+.addUser button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-left: 8px;
+}
+
+/* Hover state for the button */
+.addUser button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the user list */
+.user {
+  margin-top: 12px;
+}
+
+/* Style for individual user entries */
+.user .detail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover state for user detail */
+.user .detail:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style for user avatar */
+.user img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Style for user name text */
+.user span {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .addUser {
+    max-width: 100%;
+    padding: 8px;
+  }
+
+  .user img {
+    width: 30px;
+    height: 30px;
+  }
+}

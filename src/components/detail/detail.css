@@ -1,0 +1,142 @@
+/* Overall container */
+.detail {
+  background-color: #1f0c0c55;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  transition: 0.3s ease;
+}
+
+.detail:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* User Info */
+.user {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #4d94ff;
+  margin-bottom: 10px;
+}
+
+.userName {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.statusMessage {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+
+/* Options */
+.info {
+  margin-top: 10px;
+}
+
+.option {
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.option:hover {
+  background-color: #eaeaea;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  transition: 0.3s ease;
+}
+
+/* Shared Photos Section */
+.photos {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #c0c84ebe;
+}
+
+.photoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: #a95353;
+}
+
+.sharedPhoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.sharedPhoto:hover {
+  transform: scale(1.1);
+}
+
+.downloadIcon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.blockButton {
+  background-color: #ff4d4d;
+}
+
+.blockButton:hover {
+  background-color: #ff1a1a;
+}
+
+.logoutButton {
+  background-color: #4d94ff;
+  margin-top: 10px;
+}
+
+.logoutButton:hover {
+  background-color: #357ae8;
+}
