@@ -15,10 +15,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: px;
+    gap: 20px;
     background-color: rgba(73, 104, 244, 0.933);
-    border-radius: 10px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 900px;
     max-width: 100%;
@@ -38,8 +38,8 @@ body {
   /* Separator between Sign In and Sign Up */
   .separator {
     height: 100%;
-    width: 1px;
-    background-color: #dddfe2;
+    width: 10px;
+    background-color: #1755b27d;
     margin: 0 20px;
   }
   
