@@ -20,7 +20,7 @@ body {
 .container{
   width: 90vw;
   height: 90vh;
-  background-color: #800bed8d;
+  background-color: #200ae2f8;
   backdrop-filter: blur(19px) saturate(180%);
   border-radius: 12px;
   border: 1px solid #ebd1cd40;
