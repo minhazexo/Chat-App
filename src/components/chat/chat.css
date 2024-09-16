@@ -13,7 +13,7 @@
   align-items: center;
   padding: 10px;
   background-color: #075e54;
-  color: white;
+  color: rgb(214, 25, 25);
 }
 
 /* User Info in the Header */
@@ -64,7 +64,7 @@
 
 /* Text Bubble */
 .message .texts {
-  background-color: #ffffff;
+  background-color: #0f1014;
   border-radius: 8px;
   padding: 10px;
   max-width: 80%;
@@ -121,8 +121,8 @@
 /* Input Section */
 .bottom {
   padding: 10px;
-  background-color: #ffffff;
-  border-top: 1px solid #ddd;
+  background-color: #36e66eb8;
+  border-top: 1px solid #0d0d0d;
   display: flex;
   align-items: center;
   justify-content: space-between;
